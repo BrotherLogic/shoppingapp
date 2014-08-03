@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0D8348EE-89CE-4692-9E3B-EDBADCAAA6EB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ShoppingList</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C3028D10-FE5A-4C4A-9B75-C2169E6EC178</key>
+		<string>ssh://github.com/BrotherLogic/shoppingapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ShoppingList/ShoppingList.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C3028D10-FE5A-4C4A-9B75-C2169E6EC178</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/BrotherLogic/shoppingapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C3028D10-FE5A-4C4A-9B75-C2169E6EC178</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C3028D10-FE5A-4C4A-9B75-C2169E6EC178</string>
+			<key>IDESourceControlWCCName</key>
+			<string>shoppingapp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,139 +7,159 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4652FFD18E86E07005F5F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4652FFC18E86E07005F5F8C /* Foundation.framework */; };
-		F4652FFF18E86E07005F5F8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4652FFE18E86E07005F5F8C /* CoreGraphics.framework */; };
-		F465300118E86E07005F5F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F465300018E86E07005F5F8C /* UIKit.framework */; };
-		F465300718E86E07005F5F8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F465300518E86E07005F5F8C /* InfoPlist.strings */; };
-		F465300918E86E07005F5F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F465300818E86E07005F5F8C /* main.m */; };
-		F465300D18E86E07005F5F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F465300C18E86E07005F5F8C /* AppDelegate.m */; };
-		F465300F18E86E07005F5F8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F465300E18E86E07005F5F8C /* Images.xcassets */; };
-		F465301618E86E07005F5F8C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F465301518E86E07005F5F8C /* XCTest.framework */; };
-		F465301718E86E07005F5F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4652FFC18E86E07005F5F8C /* Foundation.framework */; };
-		F465301818E86E07005F5F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F465300018E86E07005F5F8C /* UIKit.framework */; };
-		F465302018E86E07005F5F8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F465301E18E86E07005F5F8C /* InfoPlist.strings */; };
-		F465302218E86E07005F5F8C /* ShoppingListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F465302118E86E07005F5F8C /* ShoppingListTests.m */; };
+		F403AEC4198EAFC400170E7D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F403AEC3198EAFC400170E7D /* User.m */; };
+		F48170F218FE36FE0099C94B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48170F118FE36FE0099C94B /* Social.framework */; };
+		F485B81818EA51DE00748A61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F485B81718EA51DE00748A61 /* Foundation.framework */; };
+		F485B81A18EA51DE00748A61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F485B81918EA51DE00748A61 /* CoreGraphics.framework */; };
+		F485B81C18EA51DE00748A61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F485B81B18EA51DE00748A61 /* UIKit.framework */; };
+		F485B82218EA51DE00748A61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F485B82018EA51DE00748A61 /* InfoPlist.strings */; };
+		F485B82418EA51DE00748A61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F485B82318EA51DE00748A61 /* main.m */; };
+		F485B82818EA51DE00748A61 /* ShopListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F485B82718EA51DE00748A61 /* ShopListAppDelegate.m */; };
+		F485B82B18EA51DE00748A61 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F485B82918EA51DE00748A61 /* Main_iPhone.storyboard */; };
+		F485B82E18EA51DE00748A61 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F485B82C18EA51DE00748A61 /* Main_iPad.storyboard */; };
+		F485B83118EA51DE00748A61 /* ShopListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F485B83018EA51DE00748A61 /* ShopListViewController.m */; };
+		F485B83318EA51DE00748A61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F485B83218EA51DE00748A61 /* Images.xcassets */; };
+		F485B83A18EA51DE00748A61 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F485B83918EA51DE00748A61 /* XCTest.framework */; };
+		F485B83B18EA51DE00748A61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F485B81718EA51DE00748A61 /* Foundation.framework */; };
+		F485B83C18EA51DE00748A61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F485B81B18EA51DE00748A61 /* UIKit.framework */; };
+		F485B84418EA51DE00748A61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F485B84218EA51DE00748A61 /* InfoPlist.strings */; };
+		F485B84618EA51DE00748A61 /* ShoppingListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F485B84518EA51DE00748A61 /* ShoppingListTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F465301918E86E07005F5F8C /* PBXContainerItemProxy */ = {
+		F485B83D18EA51DE00748A61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F4652FF118E86E07005F5F8C /* Project object */;
+			containerPortal = F485B80C18EA51DE00748A61 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4652FF818E86E07005F5F8C;
+			remoteGlobalIDString = F485B81318EA51DE00748A61;
 			remoteInfo = ShoppingList;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F4652FF918E86E07005F5F8C /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4652FFC18E86E07005F5F8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F4652FFE18E86E07005F5F8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F465300018E86E07005F5F8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F465300418E86E07005F5F8C /* ShoppingList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShoppingList-Info.plist"; sourceTree = "<group>"; };
-		F465300618E86E07005F5F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F465300818E86E07005F5F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F465300A18E86E07005F5F8C /* ShoppingList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShoppingList-Prefix.pch"; sourceTree = "<group>"; };
-		F465300B18E86E07005F5F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F465300C18E86E07005F5F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F465300E18E86E07005F5F8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F465301418E86E07005F5F8C /* ShoppingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F465301518E86E07005F5F8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F465301D18E86E07005F5F8C /* ShoppingListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShoppingListTests-Info.plist"; sourceTree = "<group>"; };
-		F465301F18E86E07005F5F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F465302118E86E07005F5F8C /* ShoppingListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingListTests.m; sourceTree = "<group>"; };
+		F403AEC3198EAFC400170E7D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		F403AEC5198EBD3A00170E7D /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F48170F118FE36FE0099C94B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F485B81418EA51DE00748A61 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F485B81718EA51DE00748A61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F485B81918EA51DE00748A61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F485B81B18EA51DE00748A61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F485B81F18EA51DE00748A61 /* ShoppingList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShoppingList-Info.plist"; sourceTree = "<group>"; };
+		F485B82118EA51DE00748A61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F485B82318EA51DE00748A61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F485B82518EA51DE00748A61 /* ShoppingList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShoppingList-Prefix.pch"; sourceTree = "<group>"; };
+		F485B82618EA51DE00748A61 /* ShopListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopListAppDelegate.h; sourceTree = "<group>"; };
+		F485B82718EA51DE00748A61 /* ShopListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopListAppDelegate.m; sourceTree = "<group>"; };
+		F485B82A18EA51DE00748A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F485B82D18EA51DE00748A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F485B82F18EA51DE00748A61 /* ShopListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopListViewController.h; sourceTree = "<group>"; };
+		F485B83018EA51DE00748A61 /* ShopListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopListViewController.m; sourceTree = "<group>"; };
+		F485B83218EA51DE00748A61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F485B83818EA51DE00748A61 /* ShoppingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F485B83918EA51DE00748A61 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F485B84118EA51DE00748A61 /* ShoppingListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShoppingListTests-Info.plist"; sourceTree = "<group>"; };
+		F485B84318EA51DE00748A61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F485B84518EA51DE00748A61 /* ShoppingListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingListTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F4652FF618E86E07005F5F8C /* Frameworks */ = {
+		F485B81118EA51DE00748A61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4652FFF18E86E07005F5F8C /* CoreGraphics.framework in Frameworks */,
-				F465300118E86E07005F5F8C /* UIKit.framework in Frameworks */,
-				F4652FFD18E86E07005F5F8C /* Foundation.framework in Frameworks */,
+				F48170F218FE36FE0099C94B /* Social.framework in Frameworks */,
+				F485B81A18EA51DE00748A61 /* CoreGraphics.framework in Frameworks */,
+				F485B81C18EA51DE00748A61 /* UIKit.framework in Frameworks */,
+				F485B81818EA51DE00748A61 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F465301118E86E07005F5F8C /* Frameworks */ = {
+		F485B83518EA51DE00748A61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F465301618E86E07005F5F8C /* XCTest.framework in Frameworks */,
-				F465301818E86E07005F5F8C /* UIKit.framework in Frameworks */,
-				F465301718E86E07005F5F8C /* Foundation.framework in Frameworks */,
+				F485B83A18EA51DE00748A61 /* XCTest.framework in Frameworks */,
+				F485B83C18EA51DE00748A61 /* UIKit.framework in Frameworks */,
+				F485B83B18EA51DE00748A61 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F4652FF018E86E07005F5F8C = {
+		F485B80B18EA51DE00748A61 = {
 			isa = PBXGroup;
 			children = (
-				F465300218E86E07005F5F8C /* ShoppingList */,
-				F465301B18E86E07005F5F8C /* ShoppingListTests */,
-				F4652FFB18E86E07005F5F8C /* Frameworks */,
-				F4652FFA18E86E07005F5F8C /* Products */,
+				F485B81D18EA51DE00748A61 /* ShoppingList */,
+				F485B83F18EA51DE00748A61 /* ShoppingListTests */,
+				F485B81618EA51DE00748A61 /* Frameworks */,
+				F485B81518EA51DE00748A61 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F4652FFA18E86E07005F5F8C /* Products */ = {
+		F485B81518EA51DE00748A61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4652FF918E86E07005F5F8C /* ShoppingList.app */,
-				F465301418E86E07005F5F8C /* ShoppingListTests.xctest */,
+				F485B81418EA51DE00748A61 /* ShoppingList.app */,
+				F485B83818EA51DE00748A61 /* ShoppingListTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4652FFB18E86E07005F5F8C /* Frameworks */ = {
+		F485B81618EA51DE00748A61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F4652FFC18E86E07005F5F8C /* Foundation.framework */,
-				F4652FFE18E86E07005F5F8C /* CoreGraphics.framework */,
-				F465300018E86E07005F5F8C /* UIKit.framework */,
-				F465301518E86E07005F5F8C /* XCTest.framework */,
+				F48170F118FE36FE0099C94B /* Social.framework */,
+				F485B81718EA51DE00748A61 /* Foundation.framework */,
+				F485B81918EA51DE00748A61 /* CoreGraphics.framework */,
+				F485B81B18EA51DE00748A61 /* UIKit.framework */,
+				F485B83918EA51DE00748A61 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F465300218E86E07005F5F8C /* ShoppingList */ = {
+		F485B81D18EA51DE00748A61 /* ShoppingList */ = {
 			isa = PBXGroup;
 			children = (
-				F465300B18E86E07005F5F8C /* AppDelegate.h */,
-				F465300C18E86E07005F5F8C /* AppDelegate.m */,
-				F465300E18E86E07005F5F8C /* Images.xcassets */,
-				F465300318E86E07005F5F8C /* Supporting Files */,
+				F485B82618EA51DE00748A61 /* ShopListAppDelegate.h */,
+				F485B82718EA51DE00748A61 /* ShopListAppDelegate.m */,
+				F485B82918EA51DE00748A61 /* Main_iPhone.storyboard */,
+				F485B82C18EA51DE00748A61 /* Main_iPad.storyboard */,
+				F485B82F18EA51DE00748A61 /* ShopListViewController.h */,
+				F485B83018EA51DE00748A61 /* ShopListViewController.m */,
+				F403AEC5198EBD3A00170E7D /* User.h */,
+				F403AEC3198EAFC400170E7D /* User.m */,
+				F485B83218EA51DE00748A61 /* Images.xcassets */,
+				F485B81E18EA51DE00748A61 /* Supporting Files */,
 			);
 			path = ShoppingList;
 			sourceTree = "<group>";
 		};
-		F465300318E86E07005F5F8C /* Supporting Files */ = {
+		F485B81E18EA51DE00748A61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F465300418E86E07005F5F8C /* ShoppingList-Info.plist */,
-				F465300518E86E07005F5F8C /* InfoPlist.strings */,
-				F465300818E86E07005F5F8C /* main.m */,
-				F465300A18E86E07005F5F8C /* ShoppingList-Prefix.pch */,
+				F485B81F18EA51DE00748A61 /* ShoppingList-Info.plist */,
+				F485B82018EA51DE00748A61 /* InfoPlist.strings */,
+				F485B82318EA51DE00748A61 /* main.m */,
+				F485B82518EA51DE00748A61 /* ShoppingList-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F465301B18E86E07005F5F8C /* ShoppingListTests */ = {
+		F485B83F18EA51DE00748A61 /* ShoppingListTests */ = {
 			isa = PBXGroup;
 			children = (
-				F465302118E86E07005F5F8C /* ShoppingListTests.m */,
-				F465301C18E86E07005F5F8C /* Supporting Files */,
+				F485B84518EA51DE00748A61 /* ShoppingListTests.m */,
+				F485B84018EA51DE00748A61 /* Supporting Files */,
 			);
 			path = ShoppingListTests;
 			sourceTree = "<group>";
 		};
-		F465301C18E86E07005F5F8C /* Supporting Files */ = {
+		F485B84018EA51DE00748A61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F465301D18E86E07005F5F8C /* ShoppingListTests-Info.plist */,
-				F465301E18E86E07005F5F8C /* InfoPlist.strings */,
+				F485B84118EA51DE00748A61 /* ShoppingListTests-Info.plist */,
+				F485B84218EA51DE00748A61 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,13 +167,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4652FF818E86E07005F5F8C /* ShoppingList */ = {
+		F485B81318EA51DE00748A61 /* ShoppingList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F465302518E86E07005F5F8C /* Build configuration list for PBXNativeTarget "ShoppingList" */;
+			buildConfigurationList = F485B84918EA51DE00748A61 /* Build configuration list for PBXNativeTarget "ShoppingList" */;
 			buildPhases = (
-				F4652FF518E86E07005F5F8C /* Sources */,
-				F4652FF618E86E07005F5F8C /* Frameworks */,
-				F4652FF718E86E07005F5F8C /* Resources */,
+				F485B81018EA51DE00748A61 /* Sources */,
+				F485B81118EA51DE00748A61 /* Frameworks */,
+				F485B81218EA51DE00748A61 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -161,120 +181,145 @@
 			);
 			name = ShoppingList;
 			productName = ShoppingList;
-			productReference = F4652FF918E86E07005F5F8C /* ShoppingList.app */;
+			productReference = F485B81418EA51DE00748A61 /* ShoppingList.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F465301318E86E07005F5F8C /* ShoppingListTests */ = {
+		F485B83718EA51DE00748A61 /* ShoppingListTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F465302818E86E07005F5F8C /* Build configuration list for PBXNativeTarget "ShoppingListTests" */;
+			buildConfigurationList = F485B84C18EA51DE00748A61 /* Build configuration list for PBXNativeTarget "ShoppingListTests" */;
 			buildPhases = (
-				F465301018E86E07005F5F8C /* Sources */,
-				F465301118E86E07005F5F8C /* Frameworks */,
-				F465301218E86E07005F5F8C /* Resources */,
+				F485B83418EA51DE00748A61 /* Sources */,
+				F485B83518EA51DE00748A61 /* Frameworks */,
+				F485B83618EA51DE00748A61 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F465301A18E86E07005F5F8C /* PBXTargetDependency */,
+				F485B83E18EA51DE00748A61 /* PBXTargetDependency */,
 			);
 			name = ShoppingListTests;
 			productName = ShoppingListTests;
-			productReference = F465301418E86E07005F5F8C /* ShoppingListTests.xctest */;
+			productReference = F485B83818EA51DE00748A61 /* ShoppingListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F4652FF118E86E07005F5F8C /* Project object */ = {
+		F485B80C18EA51DE00748A61 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ShopList;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Brotherlogic;
 				TargetAttributes = {
-					F465301318E86E07005F5F8C = {
-						TestTargetID = F4652FF818E86E07005F5F8C;
+					F485B81318EA51DE00748A61 = {
+						DevelopmentTeam = 7D369TT7YP;
+					};
+					F485B83718EA51DE00748A61 = {
+						TestTargetID = F485B81318EA51DE00748A61;
 					};
 				};
 			};
-			buildConfigurationList = F4652FF418E86E07005F5F8C /* Build configuration list for PBXProject "ShoppingList" */;
+			buildConfigurationList = F485B80F18EA51DE00748A61 /* Build configuration list for PBXProject "ShoppingList" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = F4652FF018E86E07005F5F8C;
-			productRefGroup = F4652FFA18E86E07005F5F8C /* Products */;
+			mainGroup = F485B80B18EA51DE00748A61;
+			productRefGroup = F485B81518EA51DE00748A61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4652FF818E86E07005F5F8C /* ShoppingList */,
-				F465301318E86E07005F5F8C /* ShoppingListTests */,
+				F485B81318EA51DE00748A61 /* ShoppingList */,
+				F485B83718EA51DE00748A61 /* ShoppingListTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F4652FF718E86E07005F5F8C /* Resources */ = {
+		F485B81218EA51DE00748A61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F465300718E86E07005F5F8C /* InfoPlist.strings in Resources */,
-				F465300F18E86E07005F5F8C /* Images.xcassets in Resources */,
+				F485B82E18EA51DE00748A61 /* Main_iPad.storyboard in Resources */,
+				F485B83318EA51DE00748A61 /* Images.xcassets in Resources */,
+				F485B82B18EA51DE00748A61 /* Main_iPhone.storyboard in Resources */,
+				F485B82218EA51DE00748A61 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F465301218E86E07005F5F8C /* Resources */ = {
+		F485B83618EA51DE00748A61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F465302018E86E07005F5F8C /* InfoPlist.strings in Resources */,
+				F485B84418EA51DE00748A61 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F4652FF518E86E07005F5F8C /* Sources */ = {
+		F485B81018EA51DE00748A61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F465300D18E86E07005F5F8C /* AppDelegate.m in Sources */,
-				F465300918E86E07005F5F8C /* main.m in Sources */,
+				F403AEC4198EAFC400170E7D /* User.m in Sources */,
+				F485B82818EA51DE00748A61 /* ShopListAppDelegate.m in Sources */,
+				F485B83118EA51DE00748A61 /* ShopListViewController.m in Sources */,
+				F485B82418EA51DE00748A61 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F465301018E86E07005F5F8C /* Sources */ = {
+		F485B83418EA51DE00748A61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F465302218E86E07005F5F8C /* ShoppingListTests.m in Sources */,
+				F485B84618EA51DE00748A61 /* ShoppingListTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F465301A18E86E07005F5F8C /* PBXTargetDependency */ = {
+		F485B83E18EA51DE00748A61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4652FF818E86E07005F5F8C /* ShoppingList */;
-			targetProxy = F465301918E86E07005F5F8C /* PBXContainerItemProxy */;
+			target = F485B81318EA51DE00748A61 /* ShoppingList */;
+			targetProxy = F485B83D18EA51DE00748A61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F465300518E86E07005F5F8C /* InfoPlist.strings */ = {
+		F485B82018EA51DE00748A61 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F465300618E86E07005F5F8C /* en */,
+				F485B82118EA51DE00748A61 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		F465301E18E86E07005F5F8C /* InfoPlist.strings */ = {
+		F485B82918EA51DE00748A61 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F465301F18E86E07005F5F8C /* en */,
+				F485B82A18EA51DE00748A61 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F485B82C18EA51DE00748A61 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F485B82D18EA51DE00748A61 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F485B84218EA51DE00748A61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F485B84318EA51DE00748A61 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -282,7 +327,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F465302318E86E07005F5F8C /* Debug */ = {
+		F485B84718EA51DE00748A61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -321,7 +366,7 @@
 			};
 			name = Debug;
 		};
-		F465302418E86E07005F5F8C /* Release */ = {
+		F485B84818EA51DE00748A61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -354,33 +399,39 @@
 			};
 			name = Release;
 		};
-		F465302618E86E07005F5F8C /* Debug */ = {
+		F485B84A18EA51DE00748A61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShoppingList/ShoppingList-Prefix.pch";
 				INFOPLIST_FILE = "ShoppingList/ShoppingList-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		F465302718E86E07005F5F8C /* Release */ = {
+		F485B84B18EA51DE00748A61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShoppingList/ShoppingList-Prefix.pch";
 				INFOPLIST_FILE = "ShoppingList/ShoppingList-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		F465302918E86E07005F5F8C /* Debug */ = {
+		F485B84D18EA51DE00748A61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShoppingList.app/ShoppingList";
@@ -402,7 +453,7 @@
 			};
 			name = Debug;
 		};
-		F465302A18E86E07005F5F8C /* Release */ = {
+		F485B84E18EA51DE00748A61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShoppingList.app/ShoppingList";
@@ -423,32 +474,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4652FF418E86E07005F5F8C /* Build configuration list for PBXProject "ShoppingList" */ = {
+		F485B80F18EA51DE00748A61 /* Build configuration list for PBXProject "ShoppingList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F465302318E86E07005F5F8C /* Debug */,
-				F465302418E86E07005F5F8C /* Release */,
+				F485B84718EA51DE00748A61 /* Debug */,
+				F485B84818EA51DE00748A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F465302518E86E07005F5F8C /* Build configuration list for PBXNativeTarget "ShoppingList" */ = {
+		F485B84918EA51DE00748A61 /* Build configuration list for PBXNativeTarget "ShoppingList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F465302618E86E07005F5F8C /* Debug */,
-				F465302718E86E07005F5F8C /* Release */,
+				F485B84A18EA51DE00748A61 /* Debug */,
+				F485B84B18EA51DE00748A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F465302818E86E07005F5F8C /* Build configuration list for PBXNativeTarget "ShoppingListTests" */ = {
+		F485B84C18EA51DE00748A61 /* Build configuration list for PBXNativeTarget "ShoppingListTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F465302918E86E07005F5F8C /* Debug */,
-				F465302A18E86E07005F5F8C /* Release */,
+				F485B84D18EA51DE00748A61 /* Debug */,
+				F485B84E18EA51DE00748A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F4652FF118E86E07005F5F8C /* Project object */;
+	rootObject = F485B80C18EA51DE00748A61 /* Project object */;
 }

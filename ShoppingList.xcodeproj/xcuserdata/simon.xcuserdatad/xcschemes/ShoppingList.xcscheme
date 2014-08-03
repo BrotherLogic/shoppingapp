@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F4652FF818E86E07005F5F8C"
+               BlueprintIdentifier = "F485B81318EA51DE00748A61"
                BuildableName = "ShoppingList.app"
                BlueprintName = "ShoppingList"
                ReferencedContainer = "container:ShoppingList.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F465301318E86E07005F5F8C"
+               BlueprintIdentifier = "F485B83718EA51DE00748A61"
                BuildableName = "ShoppingListTests.xctest"
                BlueprintName = "ShoppingListTests"
                ReferencedContainer = "container:ShoppingList.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F4652FF818E86E07005F5F8C"
+            BlueprintIdentifier = "F485B81318EA51DE00748A61"
             BuildableName = "ShoppingList.app"
             BlueprintName = "ShoppingList"
             ReferencedContainer = "container:ShoppingList.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F4652FF818E86E07005F5F8C"
+            BlueprintIdentifier = "F485B81318EA51DE00748A61"
             BuildableName = "ShoppingList.app"
             BlueprintName = "ShoppingList"
             ReferencedContainer = "container:ShoppingList.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F4652FF818E86E07005F5F8C"
+            BlueprintIdentifier = "F485B81318EA51DE00748A61"
             BuildableName = "ShoppingList.app"
             BlueprintName = "ShoppingList"
             ReferencedContainer = "container:ShoppingList.xcodeproj">
