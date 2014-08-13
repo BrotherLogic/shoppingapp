@@ -7,14 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface User : NSObject
-
-@property (strong,nonatomic) NSString* userName;
-@property (nonatomic) NSInteger* userId;
-@property (strong,nonatomic) NSURL* avatarURL;
-
-@end
+#import "User.h"
 
 @implementation User
 

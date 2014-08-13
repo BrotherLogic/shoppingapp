@@ -7,6 +7,7 @@
 //
 
 #import "ShopListViewController.h"
+#import "ListTableViewController.h"
 #import "User.h"
 #import <Social/Social.h>
 #import <Twitter/Twitter.h>
@@ -21,6 +22,17 @@
 @end
 
 @implementation ShopListViewController
+
+User* mainUser;
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"MoveToList"])
+    {
+        ListTableViewController *controller = (ListTableViewController *)segue.destinationViewController;
+        controller.user = mainUser;
+    }
+}
 
 - (void)viewDidLoad
 {
@@ -60,9 +72,8 @@
                             NSString *uName = [userData objectForKey:@"name"];
                             NSInteger uID = [[userData objectForKey:@"id"] integerValue];
                             NSURL *avURL = [NSURL URLWithString:[userData objectForKey:@"profile_image_url"]];
-                            User *mainUser = [[User alloc] init:uName :&uID :avURL];
-
-                            
+                            mainUser = [[User alloc] init:uName :&uID :avURL];
+                            [self performSegueWithIdentifier:@"MoveToList" sender:self];
                         }];
                     }
                 }

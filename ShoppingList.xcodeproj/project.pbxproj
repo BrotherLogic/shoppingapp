@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F403AEC4198EAFC400170E7D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F403AEC3198EAFC400170E7D /* User.m */; };
+		F442153A198EC7D9002D1B79 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4421539198EC7D9002D1B79 /* ListTableViewController.m */; };
+		F4740902198F199400DA6087 /* MainListHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4740901198F199400DA6087 /* MainListHeaderTableViewCell.m */; };
 		F48170F218FE36FE0099C94B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48170F118FE36FE0099C94B /* Social.framework */; };
 		F485B81818EA51DE00748A61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F485B81718EA51DE00748A61 /* Foundation.framework */; };
 		F485B81A18EA51DE00748A61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F485B81918EA51DE00748A61 /* CoreGraphics.framework */; };
@@ -39,6 +41,10 @@
 /* Begin PBXFileReference section */
 		F403AEC3198EAFC400170E7D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		F403AEC5198EBD3A00170E7D /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F4421538198EC7D9002D1B79 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		F4421539198EC7D9002D1B79 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		F4740900198F199400DA6087 /* MainListHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainListHeaderTableViewCell.h; sourceTree = "<group>"; };
+		F4740901198F199400DA6087 /* MainListHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainListHeaderTableViewCell.m; sourceTree = "<group>"; };
 		F48170F118FE36FE0099C94B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		F485B81418EA51DE00748A61 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F485B81718EA51DE00748A61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -124,6 +130,10 @@
 				F485B82618EA51DE00748A61 /* ShopListAppDelegate.h */,
 				F485B82718EA51DE00748A61 /* ShopListAppDelegate.m */,
 				F485B82918EA51DE00748A61 /* Main_iPhone.storyboard */,
+				F4740900198F199400DA6087 /* MainListHeaderTableViewCell.h */,
+				F4740901198F199400DA6087 /* MainListHeaderTableViewCell.m */,
+				F4421538198EC7D9002D1B79 /* ListTableViewController.h */,
+				F4421539198EC7D9002D1B79 /* ListTableViewController.m */,
 				F485B82C18EA51DE00748A61 /* Main_iPad.storyboard */,
 				F485B82F18EA51DE00748A61 /* ShopListViewController.h */,
 				F485B83018EA51DE00748A61 /* ShopListViewController.m */,
@@ -270,6 +280,8 @@
 				F485B82818EA51DE00748A61 /* ShopListAppDelegate.m in Sources */,
 				F485B83118EA51DE00748A61 /* ShopListViewController.m in Sources */,
 				F485B82418EA51DE00748A61 /* main.m in Sources */,
+				F442153A198EC7D9002D1B79 /* ListTableViewController.m in Sources */,
+				F4740902198F199400DA6087 /* MainListHeaderTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

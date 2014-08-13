@@ -8,6 +8,10 @@
 
 @interface User : NSObject
 
+@property (strong,nonatomic) NSString* userName;
+@property (nonatomic) NSInteger* userId;
+@property (strong,nonatomic) NSURL* avatarURL;
+
 -(id)init: (NSString *)nme :(NSInteger *)uid :(NSURL*)avatar;
 
 @end
